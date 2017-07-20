@@ -27,4 +27,4 @@ class ElasticsearchAT17 < Formula
     # Install everything else into package directory
     prefix.install Dir["*"]
     # Remove unnecessary files
-    rm_f Dir["#{lib}/sigar/*"]
+    # rm_f Dir["#{lib}/sigar/*"]
